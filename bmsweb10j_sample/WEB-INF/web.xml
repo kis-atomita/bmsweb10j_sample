@@ -1,0 +1,25 @@
+<web-app>
+
+	<!-- ListServlet -->
+	<servlet>
+		<servlet-name>listMapping</servlet-name>
+		<servlet-class>bms.ListServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>listMapping</servlet-name>
+		<url-pattern>/list</url-pattern>
+	</servlet-mapping>
+
+	<!-- InsertServlet -->
+	<servlet>
+		<servlet-name>insertMapping</servlet-name>
+		<servlet-class>bms.InsertServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>insertMapping</servlet-name>
+		<url-pattern>/insert</url-pattern>
+	</servlet-mapping>
+
+
+
+</web-app>
