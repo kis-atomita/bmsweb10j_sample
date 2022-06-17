@@ -73,7 +73,7 @@
 							<td>
 								<a href="<%=request.getContextPath()%>/detail?isbn=<%=book.getIsbn()%>&cmd=update">変更</a>
 								<a href="<%=request.getContextPath()%>/delete?isbn=<%=book.getIsbn()%>">削除</a>
-								<a href="<%=request.getContextPath()%>/insertIntoCart?isbn=<%=book.getIsbn()%>">カートに入れる</a>
+								<!--<a href="<%=request.getContextPath()%>/insertIntoCart?isbn=<%=book.getIsbn()%>">カートに入れる</a> -->
 							</td>
 						</tr>
 						<%
